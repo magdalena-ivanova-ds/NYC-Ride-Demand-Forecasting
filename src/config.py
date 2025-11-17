@@ -7,7 +7,7 @@ DATA_DIR = BASE_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 
-# Raw dirs (only events/weather if you want to store raw)
+# Raw dirs (if needed to store raw data)
 WEATHER_RAW_DIR = RAW_DIR / "weather"
 EVENTS_RAW_DIR = RAW_DIR / "events_raw"
 
@@ -19,7 +19,7 @@ BASE_TABLE_PATH = PROCESSED_DIR / "base_hourly_2015_2024.parquet"
 
 # Taxi years
 START_YEAR_TAXI = 2015
-END_YEAR_TAXI = 2024  # inclusive
+END_YEAR_TAXI = 2024
 
 # Weather range
 WEATHER_START_DATE = "2015-01-01"
