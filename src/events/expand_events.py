@@ -18,11 +18,10 @@ def build_hourly_events(df_raw):
         "timestamp": pd.date_range(
             start="2015-01-01",
             end="2024-12-31 23:00:00",
-            freq="h"   # lowercase to avoid warnings
+            freq="h"
         )
     })
 
-    # Initialize counts
     hourly["event_count"] = 0
 
     # Convert to numpy for speed
