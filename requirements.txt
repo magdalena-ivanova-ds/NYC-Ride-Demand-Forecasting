@@ -6,3 +6,5 @@ holidays
 sodapy
 requests
 seaborn
+scikit-learn
+xgboost
