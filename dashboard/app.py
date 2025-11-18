@@ -7,8 +7,8 @@ from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # Paths
-DATA_PATH = Path("../data/processed/model_ready_hourly.parquet")
-MODEL_PATH = Path("../models/xgb_model.pkl")
+DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "processed" / "model_ready_hourly.parquet"
+MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "xgb_model.pkl"
 
 
 # Loaders (cached)
