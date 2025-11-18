@@ -2,4 +2,8 @@
 .idea
 __pycache__/
 .ipynb_checkpoints/
-data/*
+data/raw/
+data/processed/base_hourly_2015_2024.parquet
+data/processed/hourly_events_2015_2025.parquet
+data/processed/hourly_taxi_2015_2024.parquet
+data/processed/hourly_weather_2015_2024.parquet
