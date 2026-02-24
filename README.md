@@ -8,7 +8,7 @@ Built to demonstrate real-world demand forecasting, time-series modeling, and ma
 ## Live Dashboard
 
 Explore predictions interactively:
-**[Live Dashboard](https://magdalena-ivanova-ds-nyc-ride-demand-foreca-dashboardapp-qjsabk.streamlit.app/)**
+**[Live Dashboard](https://magdalena-ivanova-ds-nyc-ride-demand-foreca-dashboardapp-nthc9t.streamlit.app/)**
 
 ---
 
